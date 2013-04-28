@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+  <input type="radio" name="sex" value="male">Male<br>
+	<input type="radio" name="sex" value="female">Female<br>
+<br>
+
+	<input type="checkbox" name="pet" value="dog">I have a dog<br>
+	<input type="checkbox" name="pet" value="cat">I have a cat
+</form>
+<br>
+
+<form action="">
+<select name="pets">
+	<option value="dog">Dog</option>
+	<option value="cat">Cat</option>
+	<option value="turtle" selected>Turtle</option>
+	<option value="horse">Horse</option>
+	<option value="rabbit">Rabbit</option>
+</select>
+</form>
+
+<br>
+<br>
+
+<form action"">
+	<input type="button" value="I love rock and roll">
+</form>
+
+<br>
+<br>
+
+<form action"">
+<fieldset>
+	<legend>Personal Information:</legend>
+	Name: <input type="text" size="30"><br>
+	Shoe Size: <input type="text" size="20"><br>
+	Eye Color: <input type="text" size="15"><br>
+</fieldset>
+</form>
+
+<br>
+<br>
+<form name="input" action="html_form_action.asp" method="get">
+	First name: <input type="text" name="FirstName" value="Mickey"><br>
+	Last name: <input type="text" name="LastName" value="Mouse"><br>
+	<input type="submit" value="Submit">
+</form>
+<br>
+<br>
+<iframe src="" width="150" height="150"></iframe>
+<br>
+<br>
+<script>
+	document.write("Caitlin is the Best")
+</script>
+<noscript>
+Sorry! Your'e browser does not support JavaScript! You might want to fix that! </noscript>
+
+<h1>Learning JavaScript!</h1>
+<p id="demo">
+JavaScript can react to events. Like the click of a button.
+</p>
+
+<script>
+function myFunction()
+{
+document.getElementbyId("demo").innerHTML="Caitlin";
+}
+</script>
+
+<button type="button" onclick="myFunction()">My name is...</button>
+</body>
+</html>
