@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 >Learning HTML</h1>
+
+<p style="background-color:#0000FF">ISAT 252 section 1</p>
+
+<ul>
+<li>first, read the tutorials</li>
+<li>second, practice your coding</li>
+<li>third, teach someone else!</li>
+</ul>
+
+</body>
+<html>
